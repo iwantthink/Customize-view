@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marenbo.www.example.RxJavaActivity">
+
+    <Button
+        android:id="@+id/btn_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:layout_centerInParent="true"
+        android:onClick="rxjava"
+        android:background="#f00"
+        android:text="rxJava" />
+
+</RelativeLayout>

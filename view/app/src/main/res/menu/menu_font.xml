@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.marenbo.www.example.FontActivity">
+    <item
+        android:id="@+id/action_top"
+        android:orderInCategory="100"
+        android:title="首页"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_friend"
+        android:orderInCategory="100"
+        android:title="好友"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_content"
+        android:orderInCategory="100"
+        android:title="内容"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mine"
+        android:orderInCategory="100"
+        android:title="我的"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_smile"
+        android:orderInCategory="100"
+        android:title="微笑"
+        app:showAsAction="always" />
+</menu>

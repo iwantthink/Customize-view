@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rx_java">RxJavaActivity</string>
+    <string name="title_activity_load_bitmap">LoadBitmapActivity</string>
+    <string name="title_activity_font">FontActivity</string>
+    <string name="title_activity_vp">VPActivity</string>
+    <string name="title_activity_ok_http">OkHttpActivity</string>
+    <string name="title_activity_diy_drawable">DiyDrawableActivity</string>
+    <string name="title_activity_picture">PictureActivity</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">#f00</item>
+        <item name="colorPrimaryDark">#3333cc</item>
+        <item name="android:colorBackground">#fff</item>
+        <item name="android:textColor">#990099</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+
+    </style>
+</resources>

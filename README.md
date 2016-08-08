@@ -1,3 +1,6 @@
-# gitskills
-hello word
-##Creating a new branch is quick.
+# 自定义控件
+
+ 
+
+##1.练习用的一些自定义view
+暂时先提交上来，等有空的时候整合一下顺便写一些对于自定义view的看法

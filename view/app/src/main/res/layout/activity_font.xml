@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:squaretools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.marenbo.www.example.FontActivity">
+
+    <com.marenbo.www.example.view.AnimListView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.marenbo.www.example.SquareLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:visibility="gone"
+        squaretools:max_column="2">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9" />
+    </com.marenbo.www.example.SquareLayout>
+
+    <com.marenbo.www.example.view.LifeCycleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="5dp"
+        ></android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>
